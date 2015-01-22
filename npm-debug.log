@@ -1,0 +1,440 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json workflow-dashboard@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard',
+6 verbose install   [ 'async',
+6 verbose install     'body-parser',
+6 verbose install     'errorhandler',
+6 verbose install     'express',
+6 verbose install     'lodash',
+6 verbose install     'method-override',
+6 verbose install     'morgan',
+6 verbose install     'sequelize',
+6 verbose install     'sqlite3',
+6 verbose install     'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-bowercopy',
+6 verbose install     'grunt-bower-install',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-connect-proxy',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-modernizr',
+6 verbose install     'grunt-ngmin',
+6 verbose install     'grunt-rev',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-sync',
+6 verbose install     'grunt-usemin',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'time-grunt',
+6 verbose install     'karma',
+6 verbose install     'karma-junit-reporter',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-ng-scenario' ] ]
+7 info preinstall workflow-dashboard@0.0.0
+8 warn package.json grunt-contrib-htmlmin@0.1.3 No README data
+9 warn package.json karma-chrome-launcher@0.1.7 No README data
+10 warn package.json karma-firefox-launcher@0.1.4 No README data
+11 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'async@^0.9.0', null ]
+14 verbose cache add name=undefined spec="async@^0.9.0" args=["async@^0.9.0",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'async@^0.9.0',
+15 verbose parsed url   path: 'async@^0.9.0',
+15 verbose parsed url   href: 'async@^0.9.0' }
+16 verbose already installed skipping body-parser@~1.0.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+17 verbose already installed skipping errorhandler@~1.0.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+18 verbose already installed skipping express@4.1.1 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+19 verbose already installed skipping lodash@^2.4.1 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+20 verbose already installed skipping method-override@~1.0.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+21 verbose cache add name="async" spec="^0.9.0" args=["async","^0.9.0"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '^0.9.0',
+22 verbose parsed url   path: '^0.9.0',
+22 verbose parsed url   href: '^0.9.0' }
+23 verbose addNamed [ 'async', '^0.9.0' ]
+24 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+25 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+26 verbose lock async@^0.9.0 /Users/hc073q/.npm/7f39d2c2-async-0-9-0.lock
+27 verbose already installed skipping morgan@~1.0.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+28 silly addNameRange { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: false }
+29 verbose already installed skipping sequelize@~2.0.0-beta.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+30 verbose already installed skipping sqlite3@~2.1.5 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+31 verbose request where is /async
+32 verbose request registry https://registry.npmjs.org/
+33 verbose request id 62a1f4ae56f84b98
+34 verbose url raw /async
+35 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+36 verbose url resolved https://registry.npmjs.org/async
+37 verbose request where is https://registry.npmjs.org/async
+38 info trying registry request attempt 1 at 09:35:00
+39 verbose etag "1PRVDAI7NI0OTPE94KZEEX2M8"
+40 http GET https://registry.npmjs.org/async
+41 verbose already installed skipping grunt@~0.4.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+42 verbose already installed skipping grunt-autoprefixer@~0.4.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+43 verbose already installed skipping grunt-bowercopy@~0.4.1 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+44 verbose already installed skipping grunt-bower-install@~0.7.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+45 verbose already installed skipping grunt-concurrent@~0.4.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+46 verbose already installed skipping grunt-connect-proxy@~0.1.7 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+47 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+48 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+49 verbose already installed skipping grunt-contrib-connect@~0.5.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+50 verbose already installed skipping grunt-contrib-copy@~0.4.1 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+51 verbose already installed skipping grunt-contrib-cssmin@~0.7.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+52 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+53 verbose already installed skipping grunt-contrib-imagemin@~0.4.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+54 verbose already installed skipping grunt-contrib-jshint@~0.7.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+55 verbose already installed skipping grunt-contrib-uglify@~0.2.7 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+56 verbose already installed skipping grunt-contrib-watch@~0.5.3 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+57 verbose already installed skipping grunt-karma@~0.6.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+58 verbose already installed skipping grunt-modernizr@~0.4.1 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+59 verbose already installed skipping grunt-ngmin@~0.0.3 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+60 verbose already installed skipping grunt-rev@~0.1.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+61 verbose already installed skipping grunt-svgmin@~0.3.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+62 verbose already installed skipping grunt-sync@~0.0.5 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+63 verbose already installed skipping grunt-usemin@~2.0.2 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+64 verbose already installed skipping load-grunt-tasks@~0.2.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+65 verbose already installed skipping time-grunt@0.2.3 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+66 verbose already installed skipping karma@~0.10.8 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+67 verbose already installed skipping karma-junit-reporter@~0.1.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+68 verbose already installed skipping karma-jasmine@~0.1.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+69 verbose already installed skipping karma-ng-scenario@~0.1.0 /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+70 http 200 https://registry.npmjs.org/async
+71 silly registry.get cb [ 200,
+71 silly registry.get   { date: 'Wed, 21 Jan 2015 17:35:00 GMT',
+71 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+71 silly registry.get     etag: '"2502C4DQT52T5N4SU3O6HT0BJ"',
+71 silly registry.get     'content-type': 'application/json',
+71 silly registry.get     'cache-control': 'max-age=60',
+71 silly registry.get     'content-length': '106974',
+71 silly registry.get     'accept-ranges': 'bytes',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     age: '26',
+71 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+71 silly registry.get     'x-cache': 'HIT',
+71 silly registry.get     'x-cache-hits': '3',
+71 silly registry.get     'x-timer': 'S1421861700.411831,VS0,VE0',
+71 silly registry.get     vary: 'Accept',
+71 silly registry.get     'keep-alive': 'timeout=10, max=50',
+71 silly registry.get     connection: 'Keep-Alive' } ]
+72 silly addNameRange number 2 { name: 'async', range: '>=0.9.0-0 <0.10.0-0', hasData: true }
+73 silly addNameRange versions [ 'async',
+73 silly addNameRange   [ '0.1.0',
+73 silly addNameRange     '0.1.1',
+73 silly addNameRange     '0.1.2',
+73 silly addNameRange     '0.1.3',
+73 silly addNameRange     '0.1.4',
+73 silly addNameRange     '0.1.5',
+73 silly addNameRange     '0.1.6',
+73 silly addNameRange     '0.1.7',
+73 silly addNameRange     '0.1.8',
+73 silly addNameRange     '0.1.9',
+73 silly addNameRange     '0.1.10',
+73 silly addNameRange     '0.1.11',
+73 silly addNameRange     '0.1.12',
+73 silly addNameRange     '0.1.13',
+73 silly addNameRange     '0.1.14',
+73 silly addNameRange     '0.1.15',
+73 silly addNameRange     '0.1.16',
+73 silly addNameRange     '0.1.17',
+73 silly addNameRange     '0.1.18',
+73 silly addNameRange     '0.1.19',
+73 silly addNameRange     '0.1.20',
+73 silly addNameRange     '0.1.21',
+73 silly addNameRange     '0.1.22',
+73 silly addNameRange     '0.2.0',
+73 silly addNameRange     '0.2.1',
+73 silly addNameRange     '0.2.2',
+73 silly addNameRange     '0.2.3',
+73 silly addNameRange     '0.2.4',
+73 silly addNameRange     '0.2.5',
+73 silly addNameRange     '0.2.6',
+73 silly addNameRange     '0.2.7',
+73 silly addNameRange     '0.2.8',
+73 silly addNameRange     '0.2.9',
+73 silly addNameRange     '0.2.10',
+73 silly addNameRange     '0.3.0',
+73 silly addNameRange     '0.4.0',
+73 silly addNameRange     '0.4.1',
+73 silly addNameRange     '0.5.0',
+73 silly addNameRange     '0.6.0',
+73 silly addNameRange     '0.6.1',
+73 silly addNameRange     '0.6.2',
+73 silly addNameRange     '0.7.0',
+73 silly addNameRange     '0.8.0',
+73 silly addNameRange     '0.9.0' ] ]
+74 verbose addNamed [ 'async', '0.9.0' ]
+75 verbose addNamed [ '0.9.0', '0.9.0' ]
+76 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+77 verbose lock async@0.9.0 /Users/hc073q/.npm/9a58a886-async-0-9-0.lock
+78 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+79 silly lockFile 9a58a886-async-0-9-0 async@0.9.0
+80 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+81 silly lockFile 7f39d2c2-async-0-9-0 async@^0.9.0
+82 silly resolved [ { name: 'async',
+82 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+82 silly resolved     main: './lib/async',
+82 silly resolved     author: { name: 'Caolan McMahon' },
+82 silly resolved     version: '0.9.0',
+82 silly resolved     repository: { type: 'git', url: 'https://github.com/caolan/async.git' },
+82 silly resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+82 silly resolved     licenses: [ [Object] ],
+82 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+82 silly resolved     jam: { main: 'lib/async.js', include: [Object] },
+82 silly resolved     scripts: { test: 'nodeunit test/test-async.js' },
+82 silly resolved     homepage: 'https://github.com/caolan/async',
+82 silly resolved     _id: 'async@0.9.0',
+82 silly resolved     dist:
+82 silly resolved      { shasum: 'ac3613b1da9bed1b47510bb4651b8931e47146c7',
+82 silly resolved        tarball: 'http://registry.npmjs.org/async/-/async-0.9.0.tgz' },
+82 silly resolved     _from: 'async@^0.9.0',
+82 silly resolved     _npmVersion: '1.4.3',
+82 silly resolved     _npmUser: { name: 'caolan', email: 'caolan.mcmahon@gmail.com' },
+82 silly resolved     maintainers: [ [Object] ],
+82 silly resolved     directories: {},
+82 silly resolved     _shasum: 'ac3613b1da9bed1b47510bb4651b8931e47146c7',
+82 silly resolved     _resolved: 'https://registry.npmjs.org/async/-/async-0.9.0.tgz',
+82 silly resolved     readme: 'ERROR: No README data found!' } ]
+83 info install async@0.9.0 into /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+84 info installOne async@0.9.0
+85 verbose node_modules/async unbuild
+86 verbose tar unpack /Users/hc073q/.npm/async/0.9.0/package.tgz
+87 silly lockFile 016dad12-low-dashboard-node-modules-async tar:///Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/async
+88 verbose lock tar:///Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/async /Users/hc073q/.npm/016dad12-low-dashboard-node-modules-async.lock
+89 silly lockFile a43f4007-073q-npm-async-0-9-0-package-tgz tar:///Users/hc073q/.npm/async/0.9.0/package.tgz
+90 verbose lock tar:///Users/hc073q/.npm/async/0.9.0/package.tgz /Users/hc073q/.npm/a43f4007-073q-npm-async-0-9-0-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm extractEntry README.md
+94 silly gunzTarPerm extractEntry LICENSE
+95 silly gunzTarPerm extractEntry .travis.yml
+96 silly gunzTarPerm extractEntry component.json
+97 silly gunzTarPerm extractEntry lib/async.js
+98 silly lockFile 016dad12-low-dashboard-node-modules-async tar:///Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/async
+99 silly lockFile 016dad12-low-dashboard-node-modules-async tar:///Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/async
+100 silly lockFile a43f4007-073q-npm-async-0-9-0-package-tgz tar:///Users/hc073q/.npm/async/0.9.0/package.tgz
+101 silly lockFile a43f4007-073q-npm-async-0-9-0-package-tgz tar:///Users/hc073q/.npm/async/0.9.0/package.tgz
+102 info preinstall async@0.9.0
+103 verbose readDependencies using package.json deps
+104 verbose readDependencies using package.json deps
+105 silly resolved []
+106 verbose about to build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/async
+107 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/async
+108 verbose linkStuff [ false,
+108 verbose linkStuff   false,
+108 verbose linkStuff   false,
+108 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+109 info linkStuff async@0.9.0
+110 verbose linkBins async@0.9.0
+111 verbose linkMans async@0.9.0
+112 verbose rebuildBundles async@0.9.0
+113 info install async@0.9.0
+114 info postinstall async@0.9.0
+115 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+116 verbose linkStuff [ false,
+116 verbose linkStuff   false,
+116 verbose linkStuff   false,
+116 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace' ]
+117 info linkStuff workflow-dashboard@0.0.0
+118 verbose linkBins workflow-dashboard@0.0.0
+119 verbose linkMans workflow-dashboard@0.0.0
+120 verbose rebuildBundles workflow-dashboard@0.0.0
+121 verbose rebuildBundles [ '.bin',
+121 verbose rebuildBundles   'async',
+121 verbose rebuildBundles   'body-parser',
+121 verbose rebuildBundles   'errorhandler',
+121 verbose rebuildBundles   'express',
+121 verbose rebuildBundles   'grunt',
+121 verbose rebuildBundles   'grunt-autoprefixer',
+121 verbose rebuildBundles   'grunt-bower-install',
+121 verbose rebuildBundles   'grunt-bowercopy',
+121 verbose rebuildBundles   'grunt-concurrent',
+121 verbose rebuildBundles   'grunt-connect-proxy',
+121 verbose rebuildBundles   'grunt-contrib-clean',
+121 verbose rebuildBundles   'grunt-contrib-concat',
+121 verbose rebuildBundles   'grunt-contrib-connect',
+121 verbose rebuildBundles   'grunt-contrib-copy',
+121 verbose rebuildBundles   'grunt-contrib-cssmin',
+121 verbose rebuildBundles   'grunt-contrib-htmlmin',
+121 verbose rebuildBundles   'grunt-contrib-imagemin',
+121 verbose rebuildBundles   'grunt-contrib-jshint',
+121 verbose rebuildBundles   'grunt-contrib-uglify',
+121 verbose rebuildBundles   'grunt-contrib-watch',
+121 verbose rebuildBundles   'grunt-karma',
+121 verbose rebuildBundles   'grunt-modernizr',
+121 verbose rebuildBundles   'grunt-ngmin',
+121 verbose rebuildBundles   'grunt-rev',
+121 verbose rebuildBundles   'grunt-svgmin',
+121 verbose rebuildBundles   'grunt-sync',
+121 verbose rebuildBundles   'grunt-usemin',
+121 verbose rebuildBundles   'karma',
+121 verbose rebuildBundles   'karma-chrome-launcher',
+121 verbose rebuildBundles   'karma-coffee-preprocessor',
+121 verbose rebuildBundles   'karma-firefox-launcher',
+121 verbose rebuildBundles   'karma-html2js-preprocessor',
+121 verbose rebuildBundles   'karma-jasmine',
+121 verbose rebuildBundles   'karma-junit-reporter',
+121 verbose rebuildBundles   'karma-ng-scenario',
+121 verbose rebuildBundles   'karma-phantomjs-launcher',
+121 verbose rebuildBundles   'karma-requirejs',
+121 verbose rebuildBundles   'karma-script-launcher',
+121 verbose rebuildBundles   'load-grunt-tasks',
+121 verbose rebuildBundles   'lodash',
+121 verbose rebuildBundles   'method-override',
+121 verbose rebuildBundles   'morgan',
+121 verbose rebuildBundles   'requirejs',
+121 verbose rebuildBundles   'sequelize',
+121 verbose rebuildBundles   'sqlite3',
+121 verbose rebuildBundles   'time-grunt' ]
+122 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-chrome-launcher
+123 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-chrome-launcher
+124 info preinstall karma-chrome-launcher@0.1.7
+125 verbose linkStuff [ false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+126 info linkStuff karma-chrome-launcher@0.1.7
+127 verbose linkBins karma-chrome-launcher@0.1.7
+128 verbose linkMans karma-chrome-launcher@0.1.7
+129 verbose rebuildBundles karma-chrome-launcher@0.1.7
+130 info install karma-chrome-launcher@0.1.7
+131 info postinstall karma-chrome-launcher@0.1.7
+132 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-coffee-preprocessor
+133 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-coffee-preprocessor
+134 info preinstall karma-coffee-preprocessor@0.1.3
+135 verbose linkStuff [ false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+136 info linkStuff karma-coffee-preprocessor@0.1.3
+137 verbose linkBins karma-coffee-preprocessor@0.1.3
+138 verbose linkMans karma-coffee-preprocessor@0.1.3
+139 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+140 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+141 info install karma-coffee-preprocessor@0.1.3
+142 info postinstall karma-coffee-preprocessor@0.1.3
+143 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-firefox-launcher
+144 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-firefox-launcher
+145 info preinstall karma-firefox-launcher@0.1.4
+146 verbose linkStuff [ false,
+146 verbose linkStuff   false,
+146 verbose linkStuff   false,
+146 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+147 info linkStuff karma-firefox-launcher@0.1.4
+148 verbose linkBins karma-firefox-launcher@0.1.4
+149 verbose linkMans karma-firefox-launcher@0.1.4
+150 verbose rebuildBundles karma-firefox-launcher@0.1.4
+151 info install karma-firefox-launcher@0.1.4
+152 info postinstall karma-firefox-launcher@0.1.4
+153 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-html2js-preprocessor
+154 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-html2js-preprocessor
+155 info preinstall karma-html2js-preprocessor@0.1.0
+156 verbose linkStuff [ false,
+156 verbose linkStuff   false,
+156 verbose linkStuff   false,
+156 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+157 info linkStuff karma-html2js-preprocessor@0.1.0
+158 verbose linkBins karma-html2js-preprocessor@0.1.0
+159 verbose linkMans karma-html2js-preprocessor@0.1.0
+160 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+161 info install karma-html2js-preprocessor@0.1.0
+162 info postinstall karma-html2js-preprocessor@0.1.0
+163 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-phantomjs-launcher
+164 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-phantomjs-launcher
+165 info preinstall karma-phantomjs-launcher@0.1.4
+166 verbose linkStuff [ false,
+166 verbose linkStuff   false,
+166 verbose linkStuff   false,
+166 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+167 info linkStuff karma-phantomjs-launcher@0.1.4
+168 verbose linkBins karma-phantomjs-launcher@0.1.4
+169 verbose linkMans karma-phantomjs-launcher@0.1.4
+170 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+171 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+172 info install karma-phantomjs-launcher@0.1.4
+173 info postinstall karma-phantomjs-launcher@0.1.4
+174 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-requirejs
+175 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-requirejs
+176 info preinstall karma-requirejs@0.2.2
+177 verbose linkStuff [ false,
+177 verbose linkStuff   false,
+177 verbose linkStuff   false,
+177 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+178 info linkStuff karma-requirejs@0.2.2
+179 verbose linkBins karma-requirejs@0.2.2
+180 verbose linkMans karma-requirejs@0.2.2
+181 verbose rebuildBundles karma-requirejs@0.2.2
+182 info install karma-requirejs@0.2.2
+183 info postinstall karma-requirejs@0.2.2
+184 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-script-launcher
+185 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/karma-script-launcher
+186 info preinstall karma-script-launcher@0.1.0
+187 verbose linkStuff [ false,
+187 verbose linkStuff   false,
+187 verbose linkStuff   false,
+187 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+188 info linkStuff karma-script-launcher@0.1.0
+189 verbose linkBins karma-script-launcher@0.1.0
+190 verbose linkMans karma-script-launcher@0.1.0
+191 verbose rebuildBundles karma-script-launcher@0.1.0
+192 info install karma-script-launcher@0.1.0
+193 info postinstall karma-script-launcher@0.1.0
+194 verbose rebuild bundle /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/requirejs
+195 info build /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/requirejs
+196 info preinstall requirejs@2.1.15
+197 verbose linkStuff [ false,
+197 verbose linkStuff   false,
+197 verbose linkStuff   false,
+197 verbose linkStuff   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules' ]
+198 info linkStuff requirejs@2.1.15
+199 verbose linkBins requirejs@2.1.15
+200 verbose link bins [ { 'r.js': './bin/r.js' },
+200 verbose link bins   '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/.bin',
+200 verbose link bins   false ]
+201 verbose linkMans requirejs@2.1.15
+202 verbose rebuildBundles requirejs@2.1.15
+203 error Error: EACCES, unlink '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/.bin/r.js'
+203 error  { [Error: EACCES, unlink '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/.bin/r.js']
+203 error   errno: 3,
+203 error   code: 'EACCES',
+203 error   path: '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/.bin/r.js' }
+204 error Please try running this command again as root/Administrator.
+205 error System Darwin 14.0.0
+206 error command "node" "/usr/local/bin/npm" "install"
+207 error cwd /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard
+208 error node -v v0.10.33
+209 error npm -v 1.4.28
+210 error path /Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/.bin/r.js
+211 error code EACCES
+212 error errno 3
+213 error stack Error: EACCES, unlink '/Users/hc073q/Documents/Aptana Studio 3 Workspace/workflow-dashboard/node_modules/.bin/r.js'
+214 verbose exit [ 3, true ]

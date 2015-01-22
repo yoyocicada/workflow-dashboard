@@ -4,7 +4,7 @@ var fs = require('fs'),
 	lodash = require('lodash'),
 	sequelize = new Sequelize('sequelize_test', 'root', null, {
 		dialect : "sqlite", // or 'sqlite', 'postgres', 'mariadb'
-		storage : "/tmp/my.db",
+		storage : "/Users/hc073q/Documents/sqlite/my.db",
 	}),
 	db = {};
 
@@ -22,7 +22,8 @@ Object.keys(db).forEach(function(modelName) {
 });
 
 db["Pipeline"].hasMany(db["Stage"], {as:"Stages"});
-
+console.log(db["Pipeline"]);
+sequelize.sync();
 module.exports = lodash.extend({
 	sequelize : sequelize,
 	Sequelize : Sequelize

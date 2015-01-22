@@ -12,15 +12,18 @@
   <div class='container' ng-controller="MainCtrl">
     <h3>Oozie Workflow Job Timeline</h3>
     <div class="center-line">
-        <div ng-repeat="job in jobs" class="job" ng-class="{'odd':$index%2!=0, 'even':$index%2==0}">
+        <div ng-repeat="job in jobs" class="job repeat-animate" ng-class="{'odd':$index%2!=0, 'even':$index%2==0}">
             <div class="timeline-box">
                 <div class="caret"></div>
                 <div class="message-box panel panel-default">
-                    <div class="panel-heading">{{job.name}} @ {{job.triggered|date:'MMM d, y h:mm:ss a'}}</div>
+                    <div class="panel-heading">{{job.name}} @ {{job.createdAt|date:'MMM d, y h:mm:ss a'}}</div>
                     <div class="panel-body">
                         <ul class="list-group">
-                            <li class="list-group-item" ng-repeat="step in job.steps">
-                                <b>{{step.name|uppercase}}</b>  <span class="label label-success">{{step.status}}</span> <span class="pull-right">{{job.triggered|date:'MMM d, y h:mm:ss a'}}</span>
+                            <div ng-if='job.stages.length===0'>
+                                There is no actions completed for this job. <span class="label label-warning">No Actions Completed</span>
+                            </div>
+                            <li class="list-group-item repeat-animate stage" ng-repeat="stage in job.stages">
+                                <b>{{stage.name|uppercase}}</b>  <span class="label label-success">{{stage.status}}</span> <span class="pull-right">{{job.createdAt|date:'MMM d, y h:mm:ss a'}}</span>
                             </li>
                         </ul>
                     </div>
@@ -35,8 +38,12 @@
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-resource/angular-resource.js"></script>
   <script src="lib/angular-route/angular-route.js"></script>
+  <script src="lib/angular-animate/angular-animate.min.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
   <script src="lib/angular-ui-date/src/date.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.3.2.js"></script>
+  <script src="lib/angular-socket-io/socket.js"></script>
+
 
   <script src="js/app.js"></script>
   <script src="js/home/home-controller.js"></script>

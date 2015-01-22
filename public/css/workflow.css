@@ -23,6 +23,32 @@ body {
 .job {
 
 }
+
+.job {
+    opacity: 1;
+}
+
+.repeat-animate.ng-move,
+.repeat-animate.ng-enter,
+.repeat-animate.ng-leave {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.5s;
+}
+
+.repeat-animate.ng-leave.ng-leave-active,
+.repeat-animate.ng-move,
+.repeat-animate.ng-enter {
+    opacity:0;
+    max-height:0;
+}
+
+.repeat-animate.ng-leave,
+.repeat-animate.ng-move.ng-move-active,
+.repeat-animate.ng-enter.ng-enter-active {
+    opacity: 1;
+	max-height: 500px;
+}
+
 .job.even  .timeline-box{
 	width: 100%;
 	margin-left:0px;
