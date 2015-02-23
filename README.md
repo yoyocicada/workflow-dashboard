@@ -1,4 +1,4 @@
 workflow-dashboard
 ==================
 
-a workflow dashboard for oozie pipeline process.
+a generic web logger that displays pipeline process triggered from sh script.
